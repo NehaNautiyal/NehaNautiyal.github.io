@@ -13,10 +13,11 @@
 
   .links {
       float: right;
-      display: block;
+      font-size: 20px;
+      margin-top: 10px;
   }
 
-  ol {
+  li {
       list-style-type: none;
       display: inline-block;
       font-family: Arial, Helvetica, sans-serif;
@@ -83,6 +84,26 @@
     color: white;
   }
 
+     /* Style the footer */
+ footer {
+    flex-shrink: 0;
+   padding-top: 50px;
+   text-align: center;
+   /* bottom: 0;
+   position: fixed; */
+   margin: 0;
+   background: plum;
+   /* width: 100%; */
+   /* font-size: 16px; */
+   border-top: 15px solid rgb(204, 198, 198);
+   /* left: 0; */
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 20px;
+   /* margin-top: -50px; */
+ }
+
+  /* Styling About Page */
+
   #bio-image {
     float: left;
     padding: 20px;
@@ -94,24 +115,6 @@
     line-height: 170%;
   }
 
-   /* Style the footer */
- footer {
-     flex-shrink: 0;
-    padding-top: 50px;
-    text-align: center;
-    /* bottom: 0;
-    position: fixed; */
-    margin: 0;
-    background: plum;
-    /* width: 100%; */
-    /* font-size: 16px; */
-    border-top: 15px solid rgb(204, 198, 198);
-    /* left: 0; */
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
-    /* margin-top: -50px; */
-
-  }
 
     /* Style the Input Forms on Contact Page */
     .content {
@@ -145,22 +148,25 @@
       /* Begin Styling Portfolio Page */
       /* Portfolio Page */
 
-.img-container {
+/* .img-container { 
     width: 200px;
+    display: inline-block;
 }
-
+*/
     
 .images {
     z-index: 0;
     width: 100%;
   }
   
-  #image-1 {
+  #image-1, #image-2, #image-3, #image-4, #image-5 {
     margin: 30px;
+    width: 200px;
+    height: 200px;
   }
-  
+  /*
   #image-2 {
-    margin: 30px;
+    margin: 30px 100px;
   }
   
   #image-3 {
@@ -174,34 +180,35 @@
   #image-5 {
     margin: 30px;
   }
-
+*/
   .image-title {
-      /* position: relative; */
-      /* background: plum; */
+      position: relative;
+      background: plum;
       width: 200px;
-      /* height: 15px; */
-      /* padding: 20px 0; */
-      /* font-family: Arial, Helvetica, sans-serif; */
-      /* text-align: center; */
-      /* z-index: 1; */
+      display: inline-block;
+      height: 15px;
+      padding: 20px 0;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      z-index: 1;
   }
 
-  .img-title-1 {
+  .img-title-1, .img-title-2, .img-title-3, .img-title-4, .img-title-5 {
+    top: -90px;
+    left: -235px;
+    /* display: inline-block; */
+
+  }
+
+  
+  /* .img-title-2 { */
     /* top: -120px; */
     /* left: 31px; */
     /* right: 0; */
     /* bottom: 0; */
-    /* margin-right: 0; */
-  }
-
-  
-  .img-title-2 {
-    top: -120px;
-    left: 31px;
-    right: 0;
-    bottom: 0;
 }
 
+/*
 .img-title-3 {
     top: -120px;
     left: 31px;
@@ -222,3 +229,4 @@
     right: 0;
     bottom: 0;
 }
+*/
