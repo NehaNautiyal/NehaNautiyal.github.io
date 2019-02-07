@@ -13,11 +13,11 @@
 
   .links {
       float: right;
-      display: inline;
+      display: block;
   }
 
   ol {
-      list-style: none;
+      list-style-type: none;
       display: inline-block;
       font-family: Arial, Helvetica, sans-serif;
   }
@@ -108,6 +108,117 @@
     border-top: 15px solid rgb(204, 198, 198);
     /* left: 0; */
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
     /* margin-top: -50px; */
 
   }
+
+    /* Style the Input Forms on Contact Page */
+    .content {
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        overflow: auto;
+      }
+    
+      #name {
+        width: 920px;
+      }
+    
+      #email {
+        width: 920px;
+      }
+    
+      #message {
+        width: 920px;
+        height: 100px;
+      }
+      .submit-button {
+        font-family: Arial, Helvetica, sans-serif;
+        background: plum;
+        font-size: 16px;
+        padding: 10px;
+      }
+      /* Finished with styling the Contact Page */
+
+      /* Begin Styling Portfolio Page */
+      /* Portfolio Page */
+
+.img-container {
+    width: 200px;
+}
+
+    
+.images {
+    z-index: 0;
+    width: 100%;
+  }
+  
+  #image-1 {
+    margin: 30px;
+  }
+  
+  #image-2 {
+    margin: 30px;
+  }
+  
+  #image-3 {
+    margin: 30px;
+  }
+  
+  #image-4 {
+    margin: 30px;
+  }
+  
+  #image-5 {
+    margin: 30px;
+  }
+
+  .image-title {
+      /* position: relative; */
+      /* background: plum; */
+      width: 200px;
+      /* height: 15px; */
+      /* padding: 20px 0; */
+      /* font-family: Arial, Helvetica, sans-serif; */
+      /* text-align: center; */
+      /* z-index: 1; */
+  }
+
+  .img-title-1 {
+    /* top: -120px; */
+    /* left: 31px; */
+    /* right: 0; */
+    /* bottom: 0; */
+    /* margin-right: 0; */
+  }
+
+  
+  .img-title-2 {
+    top: -120px;
+    left: 31px;
+    right: 0;
+    bottom: 0;
+}
+
+.img-title-3 {
+    top: -120px;
+    left: 31px;
+    right: 0;
+    bottom: 0;
+}
+
+.img-title-4 {
+    top: -120px;
+    left: 31px;
+    right: 0;
+    bottom: 0;
+}
+
+.img-title-5 {
+    top: -120px;
+    left: 31px;
+    right: 0;
+    bottom: 0;
+}
