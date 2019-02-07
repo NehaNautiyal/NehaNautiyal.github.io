@@ -11,6 +11,10 @@
   
   }
 
+  hr {
+      margin: 0 10px;
+  }
+
   .links {
       float: right;
       font-size: 20px;
@@ -66,12 +70,7 @@
 
   header {
     height: 86px;  
-    /* width: 100%; */
-    /* font-size: 20px; */
     background: rgb(204, 198, 198);
-    /* position: fixed; */
-    /* top: 0; */
-    /* left: 0; */
   }
 
   a:link {
@@ -89,17 +88,11 @@
     flex-shrink: 0;
    padding-top: 50px;
    text-align: center;
-   /* bottom: 0;
-   position: fixed; */
    margin: 0;
    background: plum;
-   /* width: 100%; */
-   /* font-size: 16px; */
    border-top: 15px solid rgb(204, 198, 198);
-   /* left: 0; */
    font-family: Arial, Helvetica, sans-serif;
    margin-top: 20px;
-   /* margin-top: -50px; */
  }
 
   /* Styling About Page */
@@ -146,13 +139,6 @@
       /* Finished with styling the Contact Page */
 
       /* Begin Styling Portfolio Page */
-      /* Portfolio Page */
-
-/* .img-container { 
-    width: 200px;
-    display: inline-block;
-}
-*/
     
 .images {
     z-index: 0;
@@ -164,23 +150,7 @@
     width: 200px;
     height: 200px;
   }
-  /*
-  #image-2 {
-    margin: 30px 100px;
-  }
-  
-  #image-3 {
-    margin: 30px;
-  }
-  
-  #image-4 {
-    margin: 30px;
-  }
-  
-  #image-5 {
-    margin: 30px;
-  }
-*/
+
   .image-title {
       position: relative;
       background: plum;
@@ -196,37 +166,4 @@
   .img-title-1, .img-title-2, .img-title-3, .img-title-4, .img-title-5 {
     top: -90px;
     left: -235px;
-    /* display: inline-block; */
-
   }
-
-  
-  /* .img-title-2 { */
-    /* top: -120px; */
-    /* left: 31px; */
-    /* right: 0; */
-    /* bottom: 0; */
-}
-
-/*
-.img-title-3 {
-    top: -120px;
-    left: 31px;
-    right: 0;
-    bottom: 0;
-}
-
-.img-title-4 {
-    top: -120px;
-    left: 31px;
-    right: 0;
-    bottom: 0;
-}
-
-.img-title-5 {
-    top: -120px;
-    left: 31px;
-    right: 0;
-    bottom: 0;
-}
-*/
