@@ -1,66 +1,101 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-    <meta charset="UTF-8"/>
-    <link rel="icon" href="https://logos.textgiraffe.com/logos/logo-name/Neha-designstyle-smoothie-m.png" type="image/x-icon">
-            <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+<html>
 
-    <title>Portfolio Page</title>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Neha's Portfolio Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+    <!-- Google Fonts stylesheet -->
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+
 </head>
 
 <body>
-    <div class="everything">
-        
+    <wrapper class="d-flex flex-column">
         <header>
-            <div class="box-1">
-                <div class="heading-name">    
+
+            <nav class="navbar navbar-light py-0" style="background-color: rgb(204, 198, 198);">
+                <span class="navbar-brand m-0">
                     <h1>Neha Nautiyal</h1>
-                </div>
-                
-                    <div class="links">
-                        <ol>
-                            <li><a href="index.html" target="_blank">About |</a></li>
-                            <li><a href="#">Portfolio |</a></li>
-                            <li><a href="contact.html" target="_blank">Contact</a></li>
-                        </ol>
-                    
-            </div>
+                </span>
+
+
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
-
-        <div class="box-2">
-
-        <h2>Portfolio</h2>
-            <hr>
-
-                <div class="images">
-
-                        <img src="assets/images/Chemistry-coding.png" alt="Chemistry & Coding" id="image-1">
-                        <p class="image-title img-title-1">Chemistry</p>
-
-                        <img src="assets/images/chemistry-tag.png" alt="chemistry tag" id="image-2">   
+        <div class="flex-fill container img-thumbnail mt-4">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Portfolio</h2>
+                    <hr>
+                </div>
+            </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="Chemistry-coding.png" alt="Chemistry & Coding" class="images img-thumbnail" id="image-1">
+                            <p class="image-title img-title-1">Chemistry</p>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="chemistry-tag.png" alt="chemistry tag" class="images img-thumbnail" id="image-2">
                             <p class="image-title img-title-2">and</p>
-                
-                        <br>
-
-                        <img src="assets/images/mendeleev-dribbble.png" alt="Scientist in the Lab" id="image-3">
+                        </div>
+                    </div>
+                        <div class="row">
+                        <div class="col-md-3">
+                            <img src="mendeleev-dribbble.png" alt="Scientist in the Lab" class="images img-thumbnail"
+                                id="image-3">
                             <p class="image-title img-title-3">coding</p>
+                        </div>
 
-                        <img src="assets/images/periodic-table-of-programming-languages.jpg" alt="Periodic Table of Programming Languages" id="image-4">
+                        <div class="col-md-3">
+                            <img src="periodic-table-of-programming-languages.jpg" alt="Periodic Table of Programming Languages"
+                                class="images img-thumbnail" id="image-4">
                             <p class="image-title img-title-4">is</p>
-                    
-                        <br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
 
-                        <img src="assets/images/html-tags-infographics.jpg" alt="Periodic Table of HTML" id="image-5">    
+                            <img src="html-tags-infographics.jpg" alt="Periodic Table of HTML" class="images img-thumbnail"
+                                id="image-5">
                             <p class="image-title img-title-5">Cool.</p>
-                        
-                    
-                </div>
+                        </div>
+                    </div>
 
-                </div>
+            
+
+            
 
         </div>
-        <footer>
-            Updated 2019
-        </footer>
+        <div class="row">
+            <div class="col-md-12">
+                <footer>
+                    Updated 2019
+                </footer>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

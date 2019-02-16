@@ -1,0 +1,95 @@
+body, wrapper {
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    background-image: url("full-bloom.png");
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-fill {
+    flex: 1 0 auto;
+}
+
+h1 {
+    color: gray;
+    background: plum;
+    padding: 19px;
+    font-family: 'Questrial', sans-serif;
+    margin: 0;
+}
+
+a:link {
+    color: plum;
+    font-weight: bolder;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 28px;
+  }
+  
+  a:hover {
+    background: purple;
+    color: white;
+  }
+
+h2 {
+    font-family: 'Questrial', sans-serif;
+    margin: 10px;
+}
+
+#bio-image {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    float: left;
+    
+}
+
+#bio-content {
+    line-height: 250%;
+    font-size: 20px;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+.images {
+    z-index: 0;
+    width: 100%;
+  }
+  
+  #image-1, #image-2, #image-3, #image-4, #image-5 {
+    margin: 30px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .image-title {
+      position: relative;
+      background: plum;
+      width: 200px;
+      display: inline-block;
+      height: 15px;
+      padding: 20px 0;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      z-index: 1;
+  }
+
+  .img-title-1, .img-title-2, .img-title-3, .img-title-4, .img-title-5 {
+    top: -90px;
+    left: 30px;
+  }
+
+    /* Style the footer */
+    footer {
+        /* flex-shrink: 0; */
+        display: flex;
+       padding-top: 50px;
+       /* margin: 0; */
+       background: plum;
+       border-top: 15px solid rgb(204, 198, 198);
+       font-family: 'Shadows Into Light Two', cursive;
+       margin-top: 100px;
+       align-items: flex-end;
+       justify-content: center;
+     }

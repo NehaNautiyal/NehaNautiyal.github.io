@@ -1,57 +1,89 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
 
 <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="https://logos.textgiraffe.com/logos/logo-name/Neha-designstyle-smoothie-m.png" type="image/x-icon">
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
-    <!-- Second CSS File -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>About Neha</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+    <!-- Google Fonts stylesheet -->
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+
+
+    <!-- <script src="main.js"></script> -->
 </head>
 
 <body>
-    <div class="everything">
+    <wrapper class="d-flex flex-column">
+    <header>
 
-        <header>
-            <div class="box-1">
-                <div class="heading-name">
-                    <h1>Neha Nautiyal</h1>
+        <nav class="navbar navbar-light py-0" style="background-color: rgb(204, 198, 198);">
+            <span class="navbar-brand m-0">
+                <h1>Neha Nautiyal</h1>
+            </span>
+
+
+            <ul class="nav navbar-expand-sm justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="flex-fill container container-fluid img-thumbnail mt-4">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>About Me</h2>
                 </div>
+                <hr>
+            </div>
 
-                <div class="links">
-                    <ol>
-                        <li><a href="#">About |</a></li>
-                        <li><a href="portfolio.html" target="_blank">Portfolio |</a></li>
-                        <li><a href="contact.html" target="_blank">Contact</a></li>
-                    </ol>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="bio-container">
+                        <img id="bio-image" src="Nautiyal_N.jpg" alt="Neha">
+
+                        <p id="bio-content">
+                            I am a chemistry teacher, mom, and aspiring coder. I have been teaching for a total of 8
+                            years.
+                            I am currently at a private
+                            independent school in Jenkintown, PA for three years. Prior to this school, I taught for 5
+                            years at Olney Charter High School in North Philly.
+                            I live in Philadelphia and I am excited to be on this journey as a student.
+                            I am interested in the opportunities that are available to me at my fingertips, literally
+                            speaking!
+                        </p>
+                    </div>
                 </div>
-
-        </header>
-
-        <div class="box-2">
-
-            <br>
-
-            <h2>About Me</h2>
-            <hr>
-            <img id="bio-image" height="200" src="assets/images/Nautiyal_N.jpg" alt="Neha">
-
-            <p id="bio-content">
-                I am a chemistry teacher, mom, and aspiring coder. I have been teaching for a total of 8 years. I am
-                currently at a private
-                independent school in Jenkintown, PA for three years. Prior to this school, I taught for 5 years at
-                Olney Charter High School in North Philly.
-                I live in Philadelphia and I am excited to be on this journey as a student.
-                I am interested in the opportunities that are available to me at my fingertips, literally speaking!
-            </p>
-
+            </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+               
+            <footer>
+                      <p>Updated 2019</p>
+                  </footer>
         </div>
     </div>
-    </div>
-    <footer>
-        Updated 2019
-    </footer>
+</wrapper>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

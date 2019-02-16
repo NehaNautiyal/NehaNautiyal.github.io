@@ -1,2 +1,1 @@
-# Basic-Portfolio
-Homework from Class 1
+# Bootstrap-Portfolio
