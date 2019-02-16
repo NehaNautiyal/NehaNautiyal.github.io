@@ -4,7 +4,7 @@ body, wrapper {
 
 body {
     margin: 0;
-    background-image: url("full-bloom.png");
+    background-image: url("../images/full-bloom.png");
     display: flex;
     flex-direction: column;
 }
@@ -16,7 +16,7 @@ body {
 h1 {
     color: gray;
     background: plum;
-    padding: 19px;
+    padding: 20px;
     font-family: 'Questrial', sans-serif;
     margin: 0;
 }
@@ -52,6 +52,13 @@ h2 {
     font-family: 'Shadows Into Light Two', cursive;
 }
 
+/* Contact Page */
+.btn {
+    background: plum;
+}
+
+/* Porfolio Page */
+
 .images {
     z-index: 0;
     width: 100%;
@@ -82,10 +89,8 @@ h2 {
 
     /* Style the footer */
     footer {
-        /* flex-shrink: 0; */
         display: flex;
        padding-top: 50px;
-       /* margin: 0; */
        background: plum;
        border-top: 15px solid rgb(204, 198, 198);
        font-family: 'Shadows Into Light Two', cursive;
