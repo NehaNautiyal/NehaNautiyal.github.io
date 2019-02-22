@@ -77,9 +77,15 @@ h2 {
       display: inline-block;
       height: 15px;
       padding: 20px 0;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Questrial', sans-serif;
       text-align: center;
       z-index: 1;
+  }
+
+  .img-title-1 {
+      padding: 20px auto;
+      overflow: auto;
+      clear: both;
   }
 
   .img-title-1, .img-title-2, .img-title-3, .img-title-4, .img-title-5 {
