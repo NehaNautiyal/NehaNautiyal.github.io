@@ -29,6 +29,8 @@ a:link {
   }
   
   a:hover {
+    overflow: auto;
+    clear: both;
     background: purple;
     color: white;
   }
@@ -74,11 +76,11 @@ h2 {
       position: relative;
       background: plum;
       width: 200px;
-      display: inline-block;
+      display: flex;
       height: 15px;
       padding: 20px 0;
       font-family: 'Questrial', sans-serif;
-      text-align: center;
+      justify-content: center;
       z-index: 1;
   }
 
