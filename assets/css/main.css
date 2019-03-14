@@ -31,8 +31,15 @@ a:link {
   a:hover {
     overflow: auto;
     clear: both;
+    height: auto;
     background: purple;
     color: white;
+  }
+
+  #portfolio-link:hover {
+      height: auto;
+      overflow: auto;
+      clear: both;
   }
 
 h2 {
