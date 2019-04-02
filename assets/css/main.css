@@ -72,23 +72,25 @@ h2 {
     z-index: 0;
     width: 100%;
   }
-  
-  #image-1, #image-2, #image-3, #image-4, #image-5 {
-    margin: 30px;
-    width: 200px;
-    height: 200px;
-  }
+
+.images:hover {
+    background-color: yellow;
+}
 
   .image-title {
       position: relative;
       background: plum;
-      width: 200px;
+      /* width: 200px; */
       display: flex;
       height: 15px;
       padding: 20px 0;
       font-family: 'Questrial', sans-serif;
       justify-content: center;
       z-index: 1;
+  }
+
+  .images {
+      height: 50vh;
   }
 
   .img-title-1 {
@@ -99,7 +101,7 @@ h2 {
 
   .img-title-1, .img-title-2, .img-title-3, .img-title-4, .img-title-5 {
     top: -90px;
-    left: 30px;
+    /* left: 30px; */
   }
 
     /* Style the footer */
