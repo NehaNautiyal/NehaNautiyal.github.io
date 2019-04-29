@@ -10747,6 +10747,10 @@ header.masthead h1 {
   font-size: 1.2rem;
 }
 
+.project-description {
+  font-size: 0.8rem;
+}
+
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
