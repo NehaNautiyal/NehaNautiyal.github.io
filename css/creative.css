@@ -10754,3 +10754,15 @@ header.masthead h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+#headshot {
+  max-width: 500px;
+  max-height: 400px;
+  border-radius: 50%;
+  border: 5px solid purple;
+  margin-bottom: 50px;
+}
+
+#headshot:hover {
+  border: 5px solid #17a2b8;
+}
